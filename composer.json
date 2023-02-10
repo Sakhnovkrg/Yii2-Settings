@@ -1,0 +1,47 @@
+{
+  "name": "sakhnovkrg/yii2-settings",
+  "description": "Yii2 settings module",
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "yii",
+    "yii2",
+    "yii 2",
+    "yii framework",
+    "settings",
+    "options",
+    "yii2-settings",
+    "yii2 settings",
+    "settings management",
+    "module"
+  ],
+  "support": {
+    "issues": "https://github.com/sakhnovkrg/yii2-settings/issues",
+    "source": "https://github.com/sakhnovkrg/yii2-settings"
+  },
+  "authors": [
+    {
+      "name": "Sakhnovkrg",
+      "email": "sakhnov.krg@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "sakhnovkrg\\yii2\\settings\\": "./src"
+    }
+  },
+  "extra": {
+    "bootstrap": "sakhnovkrg\\yii2\\settings\\Module"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
